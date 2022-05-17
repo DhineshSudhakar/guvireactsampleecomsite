@@ -1,0 +1,46 @@
+.card{
+    background-color: rgb(245, 245, 245);
+}
+.card-img-top{
+    display: flex;
+    height: 200px;
+    background-color:#DEE1E6 ;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-btn{
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline;
+    font-weight: bold;
+}
+
+
+.card-title{
+    margin-top: 20px;
+}
+.fa-star{
+   color:rgb(0, 255, 0);
+}
+
+.card-body{
+    text-align: center;
+    padding: 0;
+}
+
+.card-footer{
+    border-top: none;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 20px;
+}
+
+@media (max-width:375px){
+    .card-img-top{
+        font-size: 30px;
+    }
+}
