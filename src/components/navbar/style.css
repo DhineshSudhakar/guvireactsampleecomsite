@@ -1,5 +1,9 @@
-.container{
-    background-color: #F8F9FA;
+.App{
+    background-color: #F8F9FA !important
+}
+
+.navbar{
+    background-color: #F8F9FA !important;
 }
 
 .btn{

@@ -41,7 +41,7 @@ function Navbar({ inCart, setInCart }) {
                                 className="btn"
                                 onClick={handleClick}
                             ><i className="fa fa-shopping-cart" aria-hidden="true"></i>
-                                {" "}Cart{" "}<span className="cartValue">{inCart}</span>
+                                {" "}Cart{" "}<span className="cartValue badge rounded-pill bg-dark">{inCart}</span>
                             </button>
                         </form>
                     </div>

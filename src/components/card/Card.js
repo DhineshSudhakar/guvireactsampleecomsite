@@ -33,7 +33,7 @@ function Card({ card, inCart, setInCart }) {
     return (
         <div className="card">
             <div className="card-img-top">450 x 300</div>
-            { card.sale && <button className="sale-btn btn btn-dark">Sale</button>}
+            { card.sale && <button className="sale-btn badge bg-dark">Sale</button>}
             <div className="card-body">
                 <h5 className="card-title">{card.title}</h5>
                 {

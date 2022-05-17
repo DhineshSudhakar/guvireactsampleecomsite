@@ -15,8 +15,8 @@ function App() {
       <Banner />
       <div className="cards">
         {
-          data.map(ele => {
-            return <Card card={ele} inCart={inCart} setInCart={setInCart} />
+          data.map((ele, index) => {
+            return <Card key={index} card={ele} inCart={inCart} setInCart={setInCart} />
           })
         }
       </div>
